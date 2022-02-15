@@ -6,5 +6,6 @@
 .DS_Store
 .cache
 *.iml
+build
 gen_java
 bin
