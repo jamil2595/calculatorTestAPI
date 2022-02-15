@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorApiTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2022-02-15T20:29:31" hostname="jamil-Lenovo-IdeaPad-S145-14API" time="6.741">
+  <properties/>
+  <testcase name="postPayloadReturns409WhenCurrencyIsInteger" classname="CalculatorApiTests" time="1.495"/>
+  <testcase name="postPayloadReturns200WithCorrectApr" classname="CalculatorApiTests" time="0.686"/>
+  <testcase name="postPayloadReturns409WhenProductTypeIsMissing" classname="CalculatorApiTests" time="0.138"/>
+  <testcase name="postPayloadReturns409WhenConclusionFeeIsString" classname="CalculatorApiTests" time="0.131"/>
+  <testcase name="postPayloadReturns409WhenMonthlyPaymentIsMissing" classname="CalculatorApiTests" time="0.124"/>
+  <testcase name="postPayloadReturns409WhenAdministrationFeeIsString" classname="CalculatorApiTests" time="0.153"/>
+  <testcase name="postPayloadConvertsFloatMaturityToInteger" classname="CalculatorApiTests" time="0.439"/>
+  <testcase name="postPayloadReturns200WithCorrectMonthlyPaymentAmount" classname="CalculatorApiTests" time="0.413"/>
+  <testcase name="postPayloadConvertsFloatMonthlyPaymentDayToInteger" classname="CalculatorApiTests" time="0.807"/>
+  <testcase name="postPayloadReturns409WhenProductTypeIsInteger" classname="CalculatorApiTests" time="0.157"/>
+  <testcase name="postPayloadReturns409WhenConclusionFeeIsMissing" classname="CalculatorApiTests" time="0.144"/>
+  <testcase name="postPayloadReturns409WhenAmountIsMissing" classname="CalculatorApiTests" time="0.131"/>
+  <testcase name="postPayloadReturns409WhenMaturityIsMissing" classname="CalculatorApiTests" time="0.106"/>
+  <testcase name="postPayloadReturns409WhenMonthlyPaymentDayIsString" classname="CalculatorApiTests" time="0.158"/>
+  <testcase name="postPayloadReturns200WithCorrectTotalRepayableAmount" classname="CalculatorApiTests" time="0.441"/>
+  <testcase name="postPayloadReturns409WhenAmountIsString" classname="CalculatorApiTests" time="0.147"/>
+  <testcase name="postPayloadReturns200WhenRequestBodyIsCorrect" classname="CalculatorApiTests" time="0.35"/>
+  <testcase name="postPayloadReturns409WhenProductTypeIsFloat" classname="CalculatorApiTests" time="0.128"/>
+  <testcase name="postPayloadReturns409WhenAdministrationFeeIsMissing" classname="CalculatorApiTests" time="0.135"/>
+  <testcase name="postPayloadReturns409WhenCurrencyIsMissing" classname="CalculatorApiTests" time="0.117"/>
+  <testcase name="postPayloadReturns409WhenMaturityIsString" classname="CalculatorApiTests" time="0.077"/>
+  <testcase name="postPayloadReturns409WhenInterestRateIsMissing" classname="CalculatorApiTests" time="0.14"/>
+  <testcase name="postPayloadReturns409WhenInterestRateIsString" classname="CalculatorApiTests" time="0.116"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
